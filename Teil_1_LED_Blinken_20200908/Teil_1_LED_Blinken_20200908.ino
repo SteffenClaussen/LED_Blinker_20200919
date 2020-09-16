@@ -1,14 +1,26 @@
+/*
+      Programm:       XXXXX
+      Version :       1.0,  XX.XX.2020
+      Programmierer:  CLA
+
+      Hardware:       Arduino, 
+*/
+
+
+#define LED  13
+
+
 void setup()
 {
-  pinMode (13, OUTPUT);
+  pinMode (LED, OUTPUT);
 
 
 }
 
 void loop()
 {
-  digitalWrite(13, HIGH);
+  digitalWrite(LED, HIGH);
   delay(1000);
-  digitalWrite(13, LOW);
+  digitalWrite(LED, LOW);
   delay(1000);
 }
